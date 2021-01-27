@@ -4,5 +4,8 @@ This repository has two parts, the one is pattern recognition and the other is a
 We will make great efforts to ensure and improve the quality of this repository which maybe the initial goal of this project.
 
 Pattern recognition:
+
 1. Image contrast
+
+   SHMS.py-->
    Chang Y C , Chang C M . A simple histogram modification scheme for contrast enhancement[J]. IEEE Transactions on Consumer Electronics, 2010, 56(2):737-742.
