@@ -6,3 +6,6 @@ We will make great efforts to ensure and improve the quality of this repository 
 Pattern recognition:<Br/>
 1. Image contrast<Br/>
    SHMS.py : Chang Y C , Chang C M . A simple histogram modification scheme for contrast enhancement[J]. IEEE Transactions on Consumer Electronics, 2010, 56(2):737-742.
+2. Image Edge Detection.<Br/>
+   Color Canny edge detection: Nadernejad E, Sharifzadeh S, Hassanpour H. Edge detection techniques: Evaluations and comparisons[J]. Applied Mathematical Sciences, 2008, 2(31): 1507-1520.
+   Multi edge detection: Nadernejad E, Sharifzadeh S, Hassanpour H. Edge detection techniques: Evaluations and comparisons[J]. Applied Mathematical Sciences, 2008, 2(31): 1507-1520.
