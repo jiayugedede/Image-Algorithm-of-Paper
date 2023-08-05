@@ -53,3 +53,5 @@ def noisy(noise_typ,image):
       gauss = gauss.reshape(row,col,ch)        
       noisy = image + image * gauss
       return noisy
+
+noise_img = sp_noise(image,0.05) cv2.imwrite('sp_noise.jpg', noise_img)
