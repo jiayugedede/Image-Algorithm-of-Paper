@@ -9,3 +9,4 @@ Pattern recognition:<Br/>
 2. Image Edge Detection.<Br/>
    Color canny edge detection: Nadernejad E, Sharifzadeh S, Hassanpour H. Edge detection techniques: Evaluations and comparisons[J]. Applied Mathematical Sciences, 2008, 2(31): 1507-1520.<Br/>
    Multi edge detection: Nadernejad E, Sharifzadeh S, Hassanpour H. Edge detection techniques: Evaluations and comparisons[J]. Applied Mathematical Sciences, 2008, 2(31): 1507-1520.<Br/>
+   Weight standard algorithm in Tensorflow.Keras.<Br/>
