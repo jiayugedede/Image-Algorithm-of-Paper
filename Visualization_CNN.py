@@ -16,7 +16,7 @@ Configure_Dictionary = {
     "color_mode": "Jet"}
 
 
-model_config = V2_ResNet_ml1block_3_addition
+model_config = Configure_Dictionary
 save_path = model_config["save_path"]
 
 
