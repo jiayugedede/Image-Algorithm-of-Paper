@@ -64,15 +64,15 @@ class CoordAttention(tf.keras.layers.Layer):
 
         self.conv1 = tf.keras.layers.Conv2D(self.mip, kernel_size=1,
                                             use_bias=True, strides=(1, 1),
-                                            padding='valid', kernel_initializer='he_normal',
+                                            padding='valid',
                                             name=f"conv_1_{h}x{w}")
         self.conv_h = tf.keras.layers.Conv2D(self.output_channels, kernel_size=1,
                                              use_bias=True, strides=(1, 1),
-                                             padding='valid', kernel_initializer='he_normal',
+                                             padding='valid',
                                              name=f"conv_h_{h}x{w}")
         self.conv_w = tf.keras.layers.Conv2D(self.output_channels, kernel_size=1,
                                              use_bias=True, strides=(1, 1),
-                                             padding='valid', kernel_initializer='he_normal',
+                                             padding='valid',
                                              name=f"conv_w_{h}x{w}")
         self.bn1 = tf.keras.layers.BatchNormalization(name=f"bn_1_{h}x{w}")
         self.act = HardSwish(name=f"act_{h}x{w}")
