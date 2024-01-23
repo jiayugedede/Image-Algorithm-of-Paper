@@ -93,6 +93,6 @@ if __name__ == '__main__':
         elif model_config["color_mode"] == "Jet":
             plt.imshow(numpy_array, cmap=plt.cm.jet)  # Jet color map.
         plt.savefig(save_path + "/" + str(i) + ".png", bbox_inches='tight',
-                    pad_inches=0.02, dpi=500)
+                    pad_inches=0.02, dpi=500) # You can revise the dpi to change the resolution of the output image.
         plt.show()
         print("\n")
